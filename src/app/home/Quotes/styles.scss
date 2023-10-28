@@ -1,0 +1,27 @@
+@import '../../../app/variables';
+
+.sectionQuotes {
+    margin-top: 14rem;
+}
+
+.quoted {
+    color: #D3D3D3;
+}
+
+.quoted span {
+    color: $font-color;
+    font-family: $font-family;
+    margin-top: 14px;
+    font-size: 1.2rem;
+    display: block;
+}
+
+
+.quoted span h5 {
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.carouselCard{
+    z-index: 1;
+}

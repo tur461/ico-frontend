@@ -1,0 +1,23 @@
+@import "./../../variables.scss";
+.overviewContainer{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: 'Proxima Nova Light';
+    font-size: 24px;
+    p{
+        color: #E0E0E0;
+        font-size: 22px;
+        padding-left: 10px;
+        display: inline;
+        vertical-align: top;
+    }
+    h6{
+        font-family: 'Proxima Nova Semi Bold';
+        font-weight: 600;
+        font-size: 24px;
+        display: inline;
+        vertical-align: top;
+    }
+   
+
+}

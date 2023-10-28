@@ -1,0 +1,110 @@
+@import "./../variables.scss";
+
+.quoteImageStyle {
+    width: -webkit-fill-available;
+    height: 623px;
+}
+.blogContainer{
+    .row{
+    --bs-gutter-x: 0;
+    object-fit:cover ;
+    }
+}
+
+.containerBox {
+    background-color: $green-color;
+    padding: 2%;
+    border-radius: 40px;
+    height: 50%;
+    width: 30%;
+    margin: 15px;
+    h5{
+        font-family: 'Proxima Nova Bold';
+        font-size: 24px;
+        color: #DEDEDE;
+    }
+    p{
+        font-family: 'Proxima Nova Light';
+        font-size: 18.21px;
+        color: #C4C4C4;
+        .date{
+            font-family: 'Proxima Nova Regular';
+            font-size: 24px;
+            color: #DEDEDE; 
+        }
+    }
+    .blogBtn{
+        font-family: 'Proxima Nova Light';
+        font-size: 18.21px;
+        width: fit-content; 
+        padding: 4%; 
+    }
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    li{
+        padding:16px;
+        margin: 10px;
+        
+        text-decoration: none;
+        color: $white-color;
+      
+        opacity: 0.8;
+        
+        a{
+            text-decoration: none;
+            color: $white-color;
+        }
+      
+    }
+    .active{
+        border-radius: 50%;
+        border: 1px solid $white-color;
+        background-color: $header-back-color;
+    }
+    .itemClassFirst{
+        display: none;
+    }
+
+}
+
+
+.blogBox {
+    padding: 55px 60px 55px 60px;
+    margin-bottom: 2%;
+   
+
+    p {
+        color: $gray-color;
+    }
+}
+
+.blogImage {
+    height: 300px;
+    width: -webkit-fill-available;
+    border-radius: 12px;
+    margin-bottom: 20px
+}
+
+.tabButtonLink {
+    background: $btn-inactive-color;
+    border: 0px;
+    border: none !important;
+    border-radius: 9px !important;
+    color: $white-color !important;
+    width: 30%;
+    box-shadow: 1px 2px 5px #000000;
+
+    @media screen and (max-width: 500px) {
+        float: none;
+        display: block;
+        text-align: left;
+        margin: 10px;
+        width: 50%;
+    }
+}

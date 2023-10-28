@@ -1,0 +1,32 @@
+
+.sectionBanner {
+    margin-top: 0;
+
+    .quoteImageStyle {
+        width: -webkit-fill-available;
+        height: 50rem;
+        object-fit: cover;
+        
+    }
+    .quoteHome{
+        position: absolute;
+        top: 14.313rem;
+        left: 6.875rem;
+        font-weight: 400;
+        font-size: 40.88px;
+        line-height: 40.5px;
+        width: 31.5rem;
+        height: 8.188rem;
+        span{
+            color: #00FFD9;
+            font-weight: 600;
+            font-size: 49.06px;
+            line-height: 48.6px;
+        }
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,52 @@
+@import '../../variables';
+
+.sectionDefinition {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    .osiraClimateFinanceRect {
+        // width: 30rem;
+        position: relative;
+        .rectangleBG {
+            position: absolute;
+            width: 43.125rem;
+            height: 43.125rem;
+            top: 4.313rem;
+            left: 3.688rem;
+            margin-left: -11.25rem;
+            margin-top: -5.938rem;
+
+        }
+        .osiraClimateFinanceImage {
+            position: absolute;
+            top: 3.688rem;
+            left: 3.063rem;
+            width: 29.125rem;
+            height: 29.125rem;
+            margin-left: -3.75rem;
+        }
+
+    }
+    .textOsiraDefinition {
+        color: $font-color;
+        font-family: $font-family;
+        margin-left: 14rem;
+        margin-top: 4rem;
+        width: 40rem;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 3.75rem;
+        p:first-child {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            span {
+                color: #08d4b6;
+            }
+        }
+    }
+}
+
+
+

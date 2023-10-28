@@ -1,0 +1,29 @@
+@import "./../../variables.scss";
+.documentContainer{
+    padding-top: 2%;
+    padding-bottom: 3%;
+   p{
+    text-align: center;
+    padding-top: 32px;
+    color: $white-color;
+    text-shadow: 1px 1px;
+    font-family: 'Proxima Nova Semi Bold';
+    font-size: 24.57px;
+   }
+
+}
+.imageBox{
+    background: #246276!important;
+    box-shadow: 1px 1px 1px #1111;
+    padding: 4%;
+    margin: 3%;
+   // margin-top: 3%;
+    border-radius: 40px;
+  
+}
+.documnetIconStyle{
+    height: 100.64px;
+    width: 100.64px;
+    display: flex;
+    margin: auto;
+}

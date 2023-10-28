@@ -1,0 +1,49 @@
+@import "../../variables.scss";
+.introductionContainer {
+   
+   
+    p{
+      color: $gray-color;
+  }
+  h4{
+    font-weight: 400;
+    font-size: 49.41px!important;
+    line-height: 60.18px;
+  }
+    
+  }
+.content {
+    color: $header-active-color ;
+  }
+  
+  .imageStyle {
+  
+    height: 368px;
+    width: 380px;
+    margin: 4% auto;
+    padding: 15%;
+    @media screen and (max-width: 520px) {
+      width: 86%;
+      height: 80%;
+      margin: 10% auto;
+      
+    }
+  }
+  .colImageBox{
+    height: 466px;
+    width:466px;
+    padding: 5%;
+    align-content: center;
+    display: flex;
+    margin: 10% auto;
+    border-radius: 10%;
+    //background-color: $header-back-color;
+    background: url("../../assets/images/Osira_Background.png");
+    background-size: contain;
+    @media screen and (max-width: 520px) {
+      width: 100%;
+      height: 100%
+      
+    }
+  
+  }

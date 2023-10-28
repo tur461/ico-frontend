@@ -1,0 +1,92 @@
+@import "./../variables.scss";
+
+.tokenContainer {
+  padding: 55px 60px 70px 60px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  .tokenHeading{
+    font-family: 'Proxima Nova Bold';
+    color:#ffffff;
+    font-size:51.35px;
+  }
+}
+
+.backImage {
+ 
+}
+
+.tokenImageStyle {
+  // background-color: $header-back-color;
+  align-content: center;
+  display: flex;
+  margin: 0 10% auto;
+  width: 488px;
+  height: 488px;
+  //padding: 15%;
+  border-radius: 10%;
+  object-fit: cover;
+  //align-content: center;
+  //background-image: url("./../assets/images/Osira_Background.png");
+  // background-size: contain;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // margin: 0px auto;
+  //box-shadow: 1px 2px 5px #000000;
+  @media screen and (max-width: 1000px) {
+
+    height: 70%;
+    width: 60%;
+  }
+
+  // padding: 5px;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-right: 10%
+}
+
+.tokenBox {
+  background-color: $green-color;
+  padding: 5%;
+  border-radius: 50px;
+  position: relative;
+  padding-left: 8%;
+  padding-right: 8%;
+ // width: 400px;
+  //box-shadow: 1px 2px 5px #000000;
+  margin: 1px;
+  //height: 720px;
+
+}
+.tokenBorder{
+  background: url("../assets/images/enrollReactangleBorder.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0% 6% 9% 6%;
+}
+
+.rowStyle {
+  margin-bottom: 30px;
+}
+
+.EnrollStyle {
+  position: absolute;
+  bottom: -6%;
+  width: 40%;
+  color: $white-color !important;
+  font-family:'Proxima Nova Semi Bold';
+  left: 30%;
+  height: 12%;
+  font-size: 48px;
+  border-radius: 50px!important;
+ // border: 2px;
+
+  @media screen and (max-width: 500px) {
+
+    width: 40%;
+    left: 30%;
+  }
+}

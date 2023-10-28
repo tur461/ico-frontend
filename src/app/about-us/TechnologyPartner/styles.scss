@@ -1,0 +1,38 @@
+@import "./../../variables.scss";
+
+.boxGrid {
+   // border: 2px solid $yellow-color;
+//    height: 30px;
+   // margin-right: 12px;
+    border-radius: 12px;
+    background: url("./../../assets/images/techPartnerSection.png");
+    background-size: contain;
+  //  background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 10px auto;
+}
+
+.technologyContainer {
+   // margin-top: 40px;
+   padding: 10%;
+
+    .technologyHeading {
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51.16px;
+    }
+
+    p {
+        font-weight: 400;
+    }
+    .textPadd{
+        padding-left: 15px;
+    }
+}
+
+.threedeelogo {
+    height: auto;
+    max-width: 90%;
+    display: flex;
+}

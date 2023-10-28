@@ -1,0 +1,23 @@
+.avatar{
+    height: 364px;
+    width: 390px;
+    border-radius: 12px;
+    margin:0 auto;
+    display: flex;
+    margin-bottom: 20px;
+    @media screen and (max-width: 550px) {
+        width: 86%;
+        height: 80%;
+       margin-top: 10%;
+        
+      }
+}
+.teamBoxContainer{
+    padding-Top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    p{
+        font-weight: 400px!important;
+    }
+}

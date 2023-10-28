@@ -1,0 +1,46 @@
+@import '../../variables';
+
+.sectionSolution {
+    padding: 0px;
+    margin-top: 7rem;
+    // border: 2px solid red;
+    position: relative;
+    width: -webkit-fill-available;
+    height: 53rem;
+    background: transparent;
+    // margin: 0 auto;
+    background-image: url('../../assets/images/solution_bg.png');
+    background-size: cover;
+    background-position: center;
+    // .coinOverlay {
+    //     width: 40rem;
+    // }
+}
+
+.overlaySolutionText {
+    color: $font-color;
+    font-family: $font-family;
+    position: absolute;
+    width: 80%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 0;
+    padding: 6rem;
+    padding-bottom: 1.563rem;    
+    h4 {
+        color: white;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        }
+    p {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+}
+
+
+

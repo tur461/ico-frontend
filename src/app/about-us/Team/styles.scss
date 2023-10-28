@@ -1,0 +1,43 @@
+@import "./../../variables.scss";
+
+
+
+.boxGrad {
+
+ display: flex;
+ margin: 10px auto;
+ background-image: url("./../../assets/images/rectangleBorder.png");
+ background-size: cover;
+ background-position: center;
+
+}
+
+
+
+.teamContainer {
+  margin-top: 40px;
+
+  .teamHeading {
+    font-weight: 600;
+    font-size: 42px !important;
+    line-height: 51.16px;
+    
+    //text-decoration: underline;
+  }
+}
+
+.teamContent {
+  color: $header-active-color ;
+
+}
+
+.bottomLine {
+  text-align: center;
+  width: 6%;
+  margin: auto;
+ // border: 2px;
+  color: $header-active-color ;
+ // height:2px;
+  opacity: 0.9;
+  // border-width:0
+}

@@ -1,0 +1,49 @@
+.blogViewImage {
+    height: 500px;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 5px #000000;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.blogViewContainer {
+    margin-bottom: 0px;
+    h5{
+        font-family: "Proxima Nova Bold";
+        font-size: 36px;
+        color: #DEDEDE;
+    }
+    p{
+        font-family: "Proxima Nova Light";
+        font-size: 24px;
+        color: #C4C4C4;
+    }
+
+}
+
+.contentBox {
+ padding:10% 15% 15% 15%;
+    //  text-align: justify;
+    width: fit-content;
+    margin: 2px auto;
+}
+
+.blogViewBox {
+    //width: fit-content;
+    width: 1235px;
+   // padding: 15%;
+    height: auto;
+    align-content: center;
+    display: flex;
+    margin: 0 10% auto;
+    background: url("./../../assets/images/Rectangle.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}

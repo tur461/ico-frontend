@@ -1,0 +1,112 @@
+.roadMapContainer {
+    position: relative;
+    margin-top: 65rem;
+
+        .quoteImageStyle {
+        width: -webkit-fill-available;
+        height: 623px;
+    }
+
+   
+    h4 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        color: #D3D3D3;
+    }
+    
+    .roadMapImg {
+
+        height: 100%;
+        width: 100%;
+        //padding: 15% 5% 15% 5%;
+        position: absolute;
+        object-fit: contain;
+        left:10px;
+        right:10px;
+       // top:50px;
+        //margin: 20px;
+  
+
+
+
+    }
+   
+    .ico {
+        position: absolute;
+        top: -197px;
+        left: 416px;
+    }
+    .osira{
+        position: absolute;
+        top:-197px;
+        right:40px
+    }
+    .business{
+        position: absolute;
+        bottom: -198px;
+        left: 47px;
+    }
+    .ido{
+        position: absolute;
+        bottom: -198px;
+        right: 406px;
+
+    }
+    .imageBox{
+        // padding: 10%;
+        margin:18% 4% 18% 4%;
+    }
+
+    .roadMapImgSec {
+        padding: 15%;
+        margin: 0% 10% 30% 10%;
+        position: relative;
+        background-image: url("../../assets/images/roadMapLine.png");
+        background-position: center;
+        margin: 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .first{
+        position: absolute;
+        top:-4.5rem;
+        left: 0px;
+    }
+    .second{
+        position: absolute;
+        top: 10px;
+        right:25rem;
+    }
+    .third{
+        position: absolute;
+        bottom: 10px;
+        left: 23.313rem;
+    
+    }
+    .fourth{
+        position: absolute;
+        bottom: -5rem;
+        right: 10px;
+    }
+
+    .roadIcon {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+// .roadMapContainer h4 {
+//     text-align: center;
+//     font-size: 40px;
+//     font-weight: 700;
+//     color: #FFFFFF;
+// }
+

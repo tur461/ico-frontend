@@ -1,0 +1,120 @@
+@import "./../../variables.scss";
+
+.footer {
+  // background-color: black;
+  //color: #fefefe;
+  // position: fixed;
+  color: $footer-gray-color;
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 60px 22px 60px;
+  // bottom: 0;
+  // left: 0;
+}
+.lineAbove{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 30%;
+  margin-bottom: 5%;
+}
+
+
+.logoWithLabel {
+  height: 150px;
+  width: 142px;
+}
+
+.footer .heading {
+  color: $footer-gray-color;
+  max-width: 1010px;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  //margin-bottom: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color:$footer-gray-color;
+}
+
+.footer .content p {
+  margin-bottom: 1.3rem;
+  font-weight: 400;
+}
+
+.footer .content a {
+  text-decoration: none;
+  color: $footer-gray-color;
+}
+
+.footer .content a:hover {
+  border-bottom: 1px solid $header-back-color;
+}
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 24px;
+  font-weight: 600;
+  color:#F6F6F6
+}
+
+footer {
+  position: unset;
+  //   text-align: center;
+  //margin-top: 40px;
+ // margin-bottom: 2rem;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}
+
+
+.polygon{
+  height: 8%;
+  width: 8%;
+ 
+}
+.media{
+  margin-left: 31px;
+}
