@@ -23,11 +23,11 @@ export default function BlogBox({length}) {
                 {data.slice(0,length).map((item, index) => <div className="col-sm-3 containerBox" key={index}>
                 <h5 className="categoryTitle">Category xyz</h5>
                     <Image src={item[0]} className={"blogImage img-fluid"} alt={"Stone"} priority={true} />
-                    <h5 className="twoLineHeight">{item[1]}</h5>
-                    <p>
+                    <h5 className="twoLineHeight h5_blog_class_2">{item[1]}</h5>
+                    <p className="p_blog_class_2">
                         Cryptos can give the climate finance market the boost it desperately needs.So, who would have believed it? The beleaguered, seemingly lane-duck president Joe Biden & his Democrat colleges managed to steer legislation through congress that mandates the largest...
                     </p>
-                    <p className="date">28 June 2022</p>
+                    <p className="blog_date">28 June 2022</p>
                     <a className="btn btn-linear tabButtonLink blogBtn" onClick={(e)=>{
                         e.preventDefault();
                         router.push(`/blog/${index}`)
