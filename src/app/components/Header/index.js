@@ -32,7 +32,7 @@ const Header = () => {
                         <Link className={pathname == "/" ? "active" : ""} href="/">Home</Link>
                         <Link className={pathname == "/about-us" ? "active" : ""} href="/about-us">About us</Link>
                         <Link className={pathname == "/token-benefit" ? "active" : ""} href="/token-benefit">Token benefit</Link>
-                        <Link className={pathname == "/white-paper" ? "active" : ""} href="/white-paper">Whitepaper</Link>
+                        <Link href='https://drive.google.com/file/d/1796WQH-wYmk8XXiwejKlOuOmc9jsC01m/view?usp=sharing' target='_blank'>Whitepaper</Link>
                         <Link className={pathname == "/blog" ? "active" : ""} href='/blog'>Blog</Link>
                         {/* <Button title={"Connect wallet"}/> */}
                         <Button title={"Join community"} onClick={(e) => {
