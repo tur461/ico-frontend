@@ -13,8 +13,8 @@ export default function BlogBox({length}) {
         [Climate, 'A climate for economic revival'],
         [Fire, 'Act as if your house is on fire'],
         [Sustainability, 'Investing in sustainable climate solutions'],
-        [Stone, ''],
-        [Stone, '']
+        [Stone, 'Some Title 1'],
+        [Stone, 'Some Title 2']
     ]
     return (
         <>
