@@ -4,18 +4,15 @@
 
 }
 
-.displayBlock{
-    h5{
-        font-size: 24px;
-        font-weight: 700;
-    }
+.displayBlock > h5{
+    font-size: 24px;
+    font-weight: 700;
+}
 
-    p{
-        font-size: 18.21px;
-        font-weight: 400;
-        color: #D3D3D3
-        ;
-    }
+.displayBlock > p{
+    font-size: 18.21px;
+    font-weight: 400;
+    color: #D3D3D3;
 }
 .blogContainer{
     .row{
