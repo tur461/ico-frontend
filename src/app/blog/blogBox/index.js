@@ -10,18 +10,18 @@ import "./styles.scss";
 export default function BlogBox({length}) {
     const router=useRouter()
     const data = [
-        [Climate, 'A climate for economic revival'],
-        [Fire, 'Act as if your house is on fire'],
-        [Sustainability, 'Investing in sustainable climate solutions'],
-        [Stone, 'Some Title 1'],
-        [Stone, 'Some Title 2']
+        [Climate, 'A climate for economic revival', 'Category xyz'],
+        [Fire, 'Act as if your house is on fire', 'Category xyz'],
+        [Sustainability, 'Investing in sustainable climate solutions', 'Category xyz'],
+        [Stone, 'Some Title 1', 'Category xyz'],
+        [Stone, 'Some Title 2', 'Category xyz']
     ]
     return (
         <>
            
             <div className="row blogBox" >
                 {data.slice(0,length).map((item, index) => <div className="col-sm-3 containerBox" key={index}>
-                <h5 className="categoryTitle">Category xyz</h5>
+                <h5 className="h5_blog_class_2">item[2]</h5>
                     <Image src={item[0]} className={"blogImage img-fluid"} alt={"Stone"} priority={true} />
                     <h5 className="twoLineHeight h5_blog_class_2">{item[1]}</h5>
                     <p className="p_blog_class_2">

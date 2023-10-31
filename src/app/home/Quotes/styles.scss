@@ -8,7 +8,7 @@
     color: #D3D3D3;
 }
 
-.quoted span {
+.quoted > span {
     color: $font-color;
     font-family: $font-family;
     margin-top: 14px;
@@ -17,7 +17,8 @@
 }
 
 
-.quoted span h5 {
+.quoted > h5 {
+    font-family: $font-family;
     font-weight: 800;
     font-size: 24px;
     text-transform: capitalize;
