@@ -3,7 +3,7 @@
 .sectionWorking {
     margin-top: 24.25rem;
     color: $font-color;
-    font-family: $font-family;
+    font-family: $font-family-light;
     margin-bottom: 20rem;
     
 }
@@ -21,21 +21,22 @@
 
 .sectionWorking .cardGroup > div > div h5 {
     text-align: center;
-    font-size: 1.05rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    // font-weight: 600;
+    font-family: $font-family-bold;
     color: #D3D3D3;
 }
 
 .sectionWorking .cardGroup > div > div span {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
 
 .sectionWorking .cardGroup > div {
     position: relative;
     padding: 2rem;
     width: 26%;
-    height: 200px;
+    height: 230px;
     margin-left: 3rem;
     border-radius: 20px;
     background-color: #094852;
@@ -113,8 +114,8 @@
 
 .sectionWorking .cardGroup > div > img {
     position: absolute;
-    top: -23%;
-    left: 148px;
+    top: -22%;
+    left: 154px;
     width: 80px;
     height: 80px;
     border-radius: 50%;

@@ -27,7 +27,7 @@ const BlogView = () => {
         <div className="blogViewContainer">
             <div className="blogViewBox">
             <div className="contentBox">
-                <h5 className="h5_blog_class_1">{catArr[params.id]}</h5>
+                <h5 className="h5_blog_class_1 h5-cat">{catArr[params.id]}</h5>
                 <Image src={imageArray[params.id]} className={"blogViewImage img-fluid"} alt={"Stone"}  priority={true}/>
                 <h5 className="h5_blog_class_1">{titleArr[params.id]}</h5>
                 <p className="p_blog_class_1">

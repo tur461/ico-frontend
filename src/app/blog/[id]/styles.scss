@@ -18,11 +18,14 @@
 
 }
 
+.h5-cat {
+    color: $category-color;
+    margin-bottom: 1.2rem;
+}
+
 .h5_blog_class_1{
     font-family: "Proxima Nova Bold";
     font-size: 36px;
-    color: $category-color;
-    margin-bottom: 1.2rem;
 }
 .p_blog_class_1{
     font-family: "Proxima Nova Light";
@@ -31,7 +34,7 @@
 }
 
 .contentBox {
- padding:10% 15% 15% 15%;
+    padding:10% 15% 15% 15%;
     //  text-align: justify;
     width: fit-content;
     margin: 2px auto;
