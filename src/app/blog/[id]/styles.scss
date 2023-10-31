@@ -28,16 +28,18 @@
 }
 
 .author-name {
-    margin-bottom: 1.2rem;
+    font-family: $font-family-bold;
+    color: $white-color;
+    font-size: 32px;
 }
 
 .h5_blog_class_1{
-    font-family: "Proxima Nova Bold";
+    font-family: $font-family-bold;
     font-size: 32px;
     
 }
 .p_blog_class_1{
-    font-family: "Proxima Nova Light";
+    font-family: $font-family-light;
     font-size: 24px;
     color: #C4C4C4;
 }
@@ -45,8 +47,14 @@
 .contentBox {
     padding:10% 15% 15% 15%;
     //  text-align: justify;
-    width: fit-content;
+    // width: fit-content;
     margin: 2px auto;
+}
+
+.blog-content {
+    width: 100%;
+    padding: 2rem;
+    height: 60rem;
 }
 
 .blogViewBox {
