@@ -27,8 +27,8 @@
 .tabButtonLink {
     background: $btn-inactive-color;
     border: 0px;
-    border: none !important;
-    border-radius: 9px !important;
+    border: none;
+    border-radius: 9px;
     color: $white-color !important;
     width: 30%;
     box-shadow: 1px 2px 5px #000000;
@@ -66,6 +66,7 @@
     border-radius: 88px !important;
     width: 166px;
     height: 58px;
+    line-height: 2px;
 }
 
 .h5-cat_2 {
