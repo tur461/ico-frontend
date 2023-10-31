@@ -15,8 +15,8 @@ const TechnologyPartner = () => {
                         <h3 className="technologyHeading"><label className="content">Osira’s</label> Technology Partners</h3>
                         <p>
                             Osira is now ready to proceed with the platform’s implementation, having completed an
-                            extensive discovery and business analysis process with our blockchain development partner,
-                            ThreeDeeWeb.
+                            extensive discovery and business analysis process with our blockchain development partner
+                            <a className="a-tag" href="https://threedeeweb.com/">ThreeDeeWeb</a>.
                         </p>
                     </div>
                 </div>
