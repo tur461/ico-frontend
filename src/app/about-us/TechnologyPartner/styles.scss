@@ -18,6 +18,8 @@
 .a-tag:active, 
 .a-tag:hover, 
 .a-tag:link {
+    margin-left: .5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     color: $category-color;
     text-decoration: none;
