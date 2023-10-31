@@ -7,9 +7,9 @@ import BlogBox from "./../../blog/blogBox"
 export default function Blog() {
 
     return (
-        <div className="displayBlock">
+        <div className="blogSection displayBlock">
             <div>
-            <h5 style={{textAlign:'center'}}>Osira Blog </h5>
+            <h5 className="section-heading">Osira Blog </h5>
             <p style={{textAlign:'center'}}>News and Persective from global climate finance</p>
             </div>
             <div className="blogContainer">

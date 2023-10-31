@@ -11,9 +11,16 @@
 .quoted > span {
     color: $font-color;
     font-family: $font-family;
-    margin-top: 14px;
     font-size: 1.2rem;
     display: block;
+}
+
+.quoted > span:first-child {
+    margin-top: 14px;
+}
+
+.quoted > span:last-child {
+    margin-top: 10px;
 }
 
 
@@ -21,6 +28,7 @@
     font-family: $font-family;
     font-weight: 800;
     font-size: 24px;
+    margin-top: 1.6rem;
     text-transform: capitalize;
 }
 .carouselCard{

@@ -1,20 +1,29 @@
+@import '../../variables';
+
 .quoteImageStyle {
     width: -webkit-fill-available;
     height: 623px;
 
 }
 
-.displayBlock > h5{
-    font-size: 40px;
-    font-weight: 700;
+.blogSection {
+    font-family: $font-family;
 }
 
-.displayBlock > p{
+.section-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.blogSection > p{
     font-size: 24px;
     font-weight: 400;
     color: #D3D3D3;
 }
 .blogContainer{
+
     .row{
     --bs-gutter-x: 0;
     object-fit:cover ;

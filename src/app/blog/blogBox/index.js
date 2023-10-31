@@ -21,7 +21,7 @@ export default function BlogBox({length}) {
            
             <div className="row blogBox" >
                 {data.slice(0,length).map((item, index) => <div className="col-sm-3 containerBox" key={index}>
-                <h5 className="h5_blog_class_2">item[2]</h5>
+                <h5 className="h5_blog_class_2">{item[2]}</h5>
                     <Image src={item[0]} className={"blogImage img-fluid"} alt={"Stone"} priority={true} />
                     <h5 className="twoLineHeight h5_blog_class_2">{item[1]}</h5>
                     <p className="p_blog_class_2">
