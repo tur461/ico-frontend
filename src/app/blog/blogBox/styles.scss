@@ -50,7 +50,7 @@
     margin: 15px;
     
     .blogBtn{
-        font-family: 'Proxima Nova Light';
+        font-family: $font-family-light;
         font-size: 18.21px;
         width: fit-content; 
         padding: 4%; 
@@ -61,7 +61,14 @@
     }
 }
 
-.h5-cat {
+.btn--read-more {
+    border: 1px solid white !important;
+    border-radius: 88px !important;
+    width: 166px;
+    height: 58px;
+}
+
+.h5-cat_2 {
     color: $category-color;
     margin-bottom: 1.1rem;
 }
@@ -71,17 +78,17 @@
 }
 
 .h5_blog_class_2{
-    font-family: 'Proxima Nova Bold';
+    font-family: $font-family-bold;
     font-size: 24px;
 }
 .p_blog_class_2{
-    font-family: 'Proxima Nova Light';
+    font-family: $font-family-light;
     font-size: 18.21px;
     color: #C4C4C4;
 }
 
 .blog_date{
-    font-family: 'Proxima Nova Regular';
+    font-family: $font-family-reg;
     font-size: 18.21px;
     color: #DEDEDE; 
 }

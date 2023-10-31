@@ -4,7 +4,7 @@ import RoadMapLine from "../../assets/images/roadMapLine.png";
 import Business from "../../assets/images/business_dev.png";
 import ICO from "../../assets/images/ICO.png";
 import IDO from "../../assets/images/IDO.png";
-import osira from "../../assets/images/osira.png";
+import Osira from "../../assets/images/osira.png";
 import "./styles.scss";
 
 
@@ -37,7 +37,7 @@ export default function Roadmap() {
                         <li>Listing on exchanges</li>
 
                     </ul>
-                    <Image src={osira} className="osira roadIcon"  alt="osira"/>
+                    <Image src={Osira} className="osira roadIcon"  alt="osira"/>
                     
                     <Image src={Business} className="business roadIcon"alt="business" />
                     <ul className="third">
