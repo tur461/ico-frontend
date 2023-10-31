@@ -49,8 +49,8 @@ export default function Roadmap() {
                    
                     <Image src={IDO} className="ido roadIcon" alt="ido"/>
                     <ul className="fourth">
-                        <li>Web App launch</li>
-                        <li>Mobile App launch</li>
+                        <li>Web app launch</li>
+                        <li>Mobile app launch</li>
                         <li>Governance appointments</li>
                         <li>Implement liquidity pool functionality</li>
                         <li>NFT functionality launch</li>
