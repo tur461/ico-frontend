@@ -1,6 +1,6 @@
 .roadMapContainer {
     position: relative;
-    margin-top: 65rem;
+    margin-top: 115rem;
 
         .quoteImageStyle {
         width: -webkit-fill-available;
@@ -63,10 +63,14 @@
     .imageBox{
         // padding: 10%;
         margin:18% 4% 18% 4%;
+        ul {
+            color: #c9c9c9;
+            font-size: 18px;
+        }
     }
 
     .roadMapImgSec {
-        padding: 15%;
+        padding: 17%;
         margin: 0% 10% 30% 10%;
         position: relative;
         background-image: url("../../assets/images/roadMapLine.png");
@@ -98,8 +102,8 @@
     }
 
     .roadIcon {
-        height: 200px;
-        width: 200px;
+        height: 210px;
+        width: 240px;
     }
 }
 

@@ -17,12 +17,12 @@ export default function Problem() {
                     Finance is crucial to addressing the gobal climate crisis, but getting the money to where it’s needed is beset with problems. These include:
                     </p>
                     <ul>
-                    <li>Chronic short-termism risk aversion and uncertainty</li> 
-                    <li>Insufficient focus inadaptation</li>
-                    <li>Fragmented funding sources</li>
-                    <li>Lack of transparency, accountability or innovation</li>
-                    <li>Insufficient funding, bureaucracy other barriers to accessing finance</li>
-                    <li>The ‘debt doom loop’ that traps developing nations</li>
+                    <li>Chronic short-termism risk aversion and uncertainty.</li> 
+                    <li>Insufficient focus inadaptation.</li>
+                    <li>Fragmented funding sources.</li>
+                    <li>Lack of transparency, accountability or innovation.</li>
+                    <li>Insufficient funding, bureaucracy other barriers to accessing finance.</li>
+                    <li>The ‘debt doom loop’ that traps developing nations.</li>
                     </ul>
                     </div>
             </div>

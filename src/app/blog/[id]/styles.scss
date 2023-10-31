@@ -12,19 +12,17 @@
 
 .blogViewContainer {
     margin-bottom: 0px;
-    
+    h5{
+        font-family: "Proxima Nova Bold";
+        font-size: 36px;
+        color: #DEDEDE;
+    }
+    p{
+        font-family: "Proxima Nova Light";
+        font-size: 24px;
+        color: #C4C4C4;
+    }
 
-}
-
-.h5_blog_class_1{
-    font-family: "Proxima Nova Bold";
-    font-size: 36px;
-    color: #DEDEDE;
-}
-.p_blog_class_1{
-    font-family: "Proxima Nova Light";
-    font-size: 24px;
-    color: #C4C4C4;
 }
 
 .contentBox {
@@ -32,6 +30,11 @@
     //  text-align: justify;
     width: fit-content;
     margin: 2px auto;
+    .categoryTitle{
+        color:#00FFD1;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
 }
 
 .blogViewBox {
