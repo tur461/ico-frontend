@@ -38,7 +38,7 @@ const Team = () => {
                             <br></br>
                             These reflect her academic background, having gained a first for her thesis on biotechnology, globalisation
                              and development, which formed part of her anthropology degree from University College London. Since then, Janette has been 
-                             heavily involved with the social inclusion agenda in the UL, applying social movementand modernity theories to grassroots and 
+                             heavily involved with the social inclusion agenda in the UL, applying social movement and modernity theories to grassroots and 
                              marginalised community projects and, more recently, as part of a major NHS social inclusion research project. 
                             </p>
 

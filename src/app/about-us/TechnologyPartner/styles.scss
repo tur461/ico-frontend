@@ -18,8 +18,6 @@
 .a-tag:active, 
 .a-tag:hover, 
 .a-tag:link {
-    margin-left: .5rem;
-    font-size: 1.3rem;
     cursor: pointer;
     color: $category-color;
     text-decoration: none;
@@ -32,13 +30,19 @@
    padding: 10%;
 
     .technologyHeading {
-        font-weight: 600;
-        font-size: 42px;
+        font-weight: 400;
+        font-size: 40px;
         line-height: 51.16px;
+        .content{
+            font-size: 42px;
+            font-weight: 600;
+        }
     }
 
     p {
         font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.827rem;
     }
     .textPadd{
         padding-left: 15px;

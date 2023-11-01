@@ -3,7 +3,7 @@
 .sectionDefinition {
     display: flex;
     justify-content: space-around;
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-left: 2rem;
     .osiraClimateFinanceRect {
         // width: 30rem;
@@ -32,15 +32,19 @@
         color: $font-color;
         font-family: $font-family;
         margin-left: 14rem;
-        margin-top: 4rem;
+        margin-top: 5rem;
         width: 40rem;
         font-weight: 300;
         font-size: 1.5rem;
         padding-left: 3.75rem;
+        line-height: 1.827rem;
+
         p:first-child {
             color: white;
             font-size: 2.5rem;
             font-weight: 700;
+            line-height: 3.045rem;
+
             span {
                 color: #08d4b6;
             }

@@ -20,11 +20,11 @@ const SocialMedia=()=>{
         <Image src={Instagram} alt="Instagram" className="socialIcon img-fluid" />
         </div>
         <div >
-        <Image src={Twitch} alt="Twitch" className="socialIcon2 img-fluid" />
+        <Image src={Facebook} alt="Facebook" className="socialIcon2 img-fluid" />
         <Image src={Youtube} alt="Youtube" className="socialIcon2 img-fluid" />
         <Image src={Tiktok} alt="Tiktok" className="socialIcon2 img-fluid" />
-        <Image src={Facebook} alt="Facebook" className="socialIcon2 img-fluid" />
-       
+        <Image src={Twitch} alt="Twitch" className="socialIcon2 img-fluid" />
+
         </div>
 
 

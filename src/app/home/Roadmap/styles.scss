@@ -1,6 +1,6 @@
 .roadMapContainer {
     position: relative;
-    margin-top: 82rem;
+    margin-top: 115rem;
 
         .quoteImageStyle {
         width: -webkit-fill-available;
@@ -10,14 +10,14 @@
    
     h4 {
         text-align: center;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 700;
         color: #FFFFFF;
     }
 
     h6 {
         text-align: center;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 400;
         color: #D3D3D3;
     }
@@ -41,32 +41,36 @@
    
     .ico {
         position: absolute;
-        top: -226px;
-        left: 380px;
+        top: -197px;
+        left: 416px;
     }
     .osira{
         position: absolute;
-        top:-226px;
-        right: 15px
+        top: -197px;
+        left: 1130px;
     }
     .business{
         position: absolute;
-        top: 443px;
-        left: 10px;
+        bottom: -198px;
+        left: 47px;
     }
     .ido{
         position: absolute;
-        bottom: -230px;
-        right: 380px;
+        bottom: -198px;
+        right: 406px;
 
     }
     .imageBox{
         // padding: 10%;
         margin:18% 4% 18% 4%;
+        ul {
+            color: #c9c9c9;
+            font-size: 22px;
+            font-weight: 300;
     }
-
+    }
     .roadMapImgSec {
-        padding: 15%;
+        padding: 17%;
         margin: 0% 10% 30% 10%;
         position: relative;
         background-image: url("../../assets/images/roadMapLine.png");
@@ -98,8 +102,8 @@
     }
 
     .roadIcon {
-        height: 204px;
-        width: 266px;
+        height: 210px;
+        width: 240px;
     }
 }
 

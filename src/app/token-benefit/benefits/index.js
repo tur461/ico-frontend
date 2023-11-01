@@ -12,7 +12,7 @@ const Benefit = () => {
             <ul style={{marginTop:"20px"}}>
                 <li className="paragraph">
                     <h6>OSR value appreciation</h6>
-                    <p>The sustainable and climate finance markets are projected to see signifcant growth over the coming years and decades. This, combined with the design of Osira’s monetary system,
+                    <p>The sustainable and climate finance markets are projected to see signifcant growth over the coming years and decades. This combined with the design of Osira’s monetary system,
                         maximises the OSR token’s potential for long-term value appreciation.
                     </p>
                 </li>

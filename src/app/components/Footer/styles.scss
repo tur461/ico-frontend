@@ -40,6 +40,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  p{
+    font-size: 24px;
+    font-weight: 400;
+  }
 }
 
 .footer .content {
@@ -67,7 +71,7 @@
 
 .footer .content h4 {
   margin-bottom: 1.3rem;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 600;
   color:#F6F6F6
 }

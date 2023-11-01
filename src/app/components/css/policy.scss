@@ -1,14 +1,17 @@
 @import "./../../variables.scss";
 .cookieContainer {
   //  padding: 55px 60px 70px 60px;
-    margin-bottom: 0;
+    margin-bottom: -100px;
     p{
         color: #C4C4C4;
+        font-size: 24px;
+        font-weight: 300;
+        // line-height: 29.23px;
     }
    
     .heading{
       text-align: center;
-      padding-bottom: 15px;
+      padding-bottom: 40px;
       font-weight: 700;
       font-size: 36px ;
       line-height: 43.85px;
@@ -40,10 +43,10 @@
    //background-color: $green-color;
    background: url("./../../assets/images/Rectangle.png");
    background-size: contain;
-   background-position: center;
+  //  background-position: center;
    background-repeat: no-repeat;
    display: flex;
-   
+   height: 2500px;
     
    
   }

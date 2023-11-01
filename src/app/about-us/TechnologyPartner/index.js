@@ -10,13 +10,13 @@ const TechnologyPartner = () => {
         <div className="row technologyContainer ">
             {/* <div className="col boxGrid">
                 <div className="row"> */}
-                    <div className="col"> <Image src={ThreeDeeWeb} alt="threedeeweb" className="threedeelogo img-fluid"/> </div>
+                    <div className="col"> <a href="https://threedeeweb.com/" target="_blank"><Image src={ThreeDeeWeb} alt="threedeeweb" className="threedeelogo img-fluid"/> </a></div>
                     <div className="col textPadd">
                         <h3 className="technologyHeading"><label className="content">Osira’s</label> Technology Partners</h3>
                         <p>
                             Osira is now ready to proceed with the platform’s implementation, having completed an
                             extensive discovery and business analysis process with our blockchain development partner
-                            <a className="a-tag" href="https://threedeeweb.com/" target="_blank">&nbsp; ThreeDeeWeb</a>.
+                            <a className="a-tag" href="https://threedeeweb.com/" target="_blank"> ThreeDeeWeb</a>.
                         </p>
                     </div>
                 </div>

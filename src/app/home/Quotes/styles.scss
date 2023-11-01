@@ -1,8 +1,8 @@
 @import '../../../app/variables';
 
 .sectionQuotes {
-    margin-top: 14rem;
-}
+    margin-top: 15rem;
+    margin-bottom: 3rem;}
 
 .quoted {
     color: #D3D3D3;
@@ -11,8 +11,10 @@
 .quoted > span {
     color: $font-color;
     font-family: $font-family;
-    font-size: 1.2rem;
+    margin-top: 5px;
+    font-size: 1.3rem;
     display: block;
+    font-weight: 300;
 }
 
 .quoted > span:first-child {
@@ -24,11 +26,11 @@
 }
 
 
-.quoted > h5 {
+.quoted > h3 {
     font-family: $font-family;
-    font-weight: 800;
-    font-size: 24px;
-    margin-top: 1.6rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 22px;
     text-transform: capitalize;
 }
 .carouselCard{

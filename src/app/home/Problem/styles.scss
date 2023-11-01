@@ -3,7 +3,7 @@
 .sectionProblemInfo {
     display: flex;
     justify-content: space-around;
-    margin-top: 6.5rem;
+    margin-top: 8rem;
     margin-left: 0;
     margin-right: 0;
     .problemSideImage {
@@ -31,15 +31,19 @@
             line-height: 3.063rem;
             letter-spacing: 0em;
             text-align: left;
+            margin-left: 3rem;
+
 
         }
         h4 {
             font-size: 2rem;
             font-weight: 400;
-            line-height: 2.428rem;
+            line-height: 2.014rem;
             letter-spacing: 0em;
             text-align: left;
             width: 43.75rem;
+            margin-left: 3rem;
+            color: #D3D3D3;
 
         }
 
@@ -50,9 +54,14 @@
         }
         .textSection{
             height: 22.063rem;
+            span{
+                line-height: 1.534rem;
+            }
         }
         li{
             font-size: 1.5rem;
+            font-weight: 400;
+
         }
     }
 }

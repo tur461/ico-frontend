@@ -13,7 +13,7 @@ const Overview = () => {
                 supporting vulnerable communities on the climate frontline.</p>
             <ul style={{ marginTop: "20px" }}>
                 <li className="paragraph">
-                    <h6>Recipents</h6>
+                    <h6>Recipients</h6>
                     <p>have direct access to a global community of funders, from which they can apply for
 funding for their projects and enterprises in the form of investments, loans and donations, on terms
 set out in their applications.</p>

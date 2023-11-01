@@ -11,8 +11,8 @@ export default function Carousel(props) {
     const [activeIndex, setActiveIndex] = useState(0)
 
     const dotClickCbk = i => setActiveIndex(i)
-    const nextBtnCbk = _ => setActiveIndex((activeIndex + 1) % cards.length)
-    const prevBtnCbk = _ => setActiveIndex((activeIndex - 1 + cards.length) % cards.length)
+    const nextBtnCbk = _ => setActiveIndex((activeIndex - 1 + cards.length) % cards.length)
+    const prevBtnCbk = _ => setActiveIndex((activeIndex + 1) % cards.length)
 
     return (
         <div className="carouselContainer">

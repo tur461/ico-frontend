@@ -9,12 +9,12 @@ const CookiePolicy = () => {
                 <div className="alignment">
                 <h2 className="heading">Cookie Policy</h2>
                 <div className="subHeading">
-                    <h5>A climate for economic renewal</h5>
+                    {/* <h5>A climate for economic renewal</h5> */}
                 </div>
                 <div className="paragraph">
                     <h6>Who we are</h6>
                     <p>
-                        Our website address is: <a className="linkStyle" href="http://osira-network.stackstaging.com" target="_blank">http://osira-network.stackstaging.com</a>.
+                        Our website address is: <a className="linkStyle" href="http://osira-network.stackstaging.com" target="_blank">www.osira.io</a>
                     </p>
                 </div>
                 <div className="paragraph">

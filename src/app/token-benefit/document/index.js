@@ -2,7 +2,7 @@
 import "./styles.scss";
 import "./../../components/css/policy.scss";
 import Paper from "./../../assets/images/Paper.png"
-import lightPaper from "./../../assets/images/lightPaper.png"
+import litePaper from "./../../assets/images/lightPaper.png"
 import Presentations from "./../../assets/images/Presentations.png"
 import lock from "./../../assets/images/lock.png"
 import PieChart from "./../../assets/images/pie-chart.png"
@@ -13,12 +13,16 @@ const Document = () => {
         <div className="documentContainer">
             <div className="row">
                 <div className="col-sm-3 imageBox">
-                    <Image src={Paper}  alt="Paper" className="documnetIconStyle img-fluid" />
+                <a href='https://drive.google.com/file/d/1796WQH-wYmk8XXiwejKlOuOmc9jsC01m/view?usp=sharing' target='_blank'><Image src={Paper}  alt="Paper" className="documnetIconStyle img-fluid" />
+                    
                     <p>Whitepaper</p>
+                    </a>
                 </div>
                 <div className="col-sm-3 imageBox">
-                    <Image src={lightPaper} alt="lightPaper" className="documnetIconStyle img-fluid"/>
-                    <p>Lightpaper</p>
+                <a href='https://drive.google.com/file/d/1UdCNtTaoVfKbn5s-tPbTS-5J2BGy9Wtj/view?usp=sharing' target='_blank'><Image src={litePaper} alt="litePaper" className="documnetIconStyle img-fluid"/>
+                    
+                    <p>Litepaper</p>
+                    </a>
                 </div>
                 <div className="col-sm-3 imageBox">
                     <Image src={Presentations}  alt="presentations" className="documnetIconStyle img-fluid"/>
