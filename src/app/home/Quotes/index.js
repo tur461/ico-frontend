@@ -25,7 +25,8 @@ const carouselCards = [
             biggest environmental and societal challenges.
         </span>
 
-        <h3>Tyler Welmans – Blockchain Director, Deloitte Ventures</h3>
+        <h3>Tyler Welmans</h3>
+        <span>Blockchain Director, Deloitte Ventures</span>
         {/* <span>  Raam Chandrasekharan – WEF Crypto Sustainability Coalition member    </span> */}
     </div>,
     <div className="quoted" key="2">
