@@ -10,7 +10,7 @@
 
 .quoted > span {
     color: $font-color;
-    font-family: $font-family;
+    font-family: $font-family-light;
     margin-top: 5px;
     font-size: 1.3rem;
     display: block;
@@ -27,7 +27,7 @@
 
 
 .quoted > h3 {
-    font-family: $font-family;
+    font-family: $font-family-bold;
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 22px;

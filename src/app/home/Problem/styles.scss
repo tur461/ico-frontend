@@ -6,6 +6,7 @@
     margin-top: 8rem;
     margin-left: 0;
     margin-right: 0;
+    font-family: $font-family;
     .problemSideImage {
         margin-top:-41.75rem;
         display: inline-block;
@@ -32,6 +33,7 @@
             letter-spacing: 0em;
             text-align: left;
             margin-left: 3rem;
+            font-family: $font-family-bold;
 
 
         }
@@ -44,12 +46,15 @@
             width: 43.75rem;
             margin-left: 3rem;
             color: #D3D3D3;
+            font-family: $font-family-light;
 
         }
 
         p {
             margin-top: 1.25rem;
             font-size: 1.5rem;
+            font-family: $font-family-light;
+
           
         }
         .textSection{
@@ -61,6 +66,7 @@
         li{
             font-size: 1.5rem;
             font-weight: 400;
+            font-family: $font-family-light;
 
         }
     }

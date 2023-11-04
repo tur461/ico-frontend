@@ -12,7 +12,7 @@ import Sustainability from "../../assets/images/sustainability.jpg";
 const BlogView = () => {
     const params=useParams();
     const titleArr = [
-        'A climate for economic revival',
+        'A climate for economic renewal',
         'Act as if your house is on fire',
         'Investing in sustainable climate solutions'
     ]
