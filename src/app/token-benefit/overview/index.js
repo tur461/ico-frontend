@@ -13,28 +13,28 @@ const Overview = () => {
                 supporting vulnerable communities on the climate frontline.</p>
             <ul style={{ marginTop: "20px" }}>
                 <li className="paragraph">
-                    <h6>Recipients</h6>
+                    <h6>• &nbsp;Recipients</h6>
                     <p>have direct access to a global community of funders, from which they can apply for
-funding for their projects and enterprises in the form of investments, loans and donations, on terms
-set out in their applications.</p>
-                </li>
+                        funding for their projects &#160;&#160;&#160;and enterprises in the form of investments, loans and donations, on terms
+                        set out in their applications.</p>
+                        </li>
                 <li className="paragraph">
-                    <h6>Funders</h6>
+                    <h6>• &nbsp;Funders</h6>
                     <p>can locate opportunities, directly deal with recipients and make their own decision on which
-climate-related projects to support.
+                        climate-related &#160;&#160;&#160;projects to support.
                     </p>
                 </li>
                 <li className="paragraph">
-                    <h6>Experts</h6>
+                    <h6>• &nbsp;Experts</h6>
                     <p> can help shape the Osira Protocol, the platform standards and star-rating system against
-which funding applications and priorities can be judged.
+                        which funding &#160;&#160;&#160;applications and priorities can be judged.
 
                     </p>
                 </li>
             </ul>
             <p className="paragraph">
             Through the deployment of Web3, DeFi and Al technology, as well as data oracles, Osira aims to foster a
-secure and transparent online environment that facilitates the participants dialogue and funding decision.
+                secure and transparent online environment that facilitates the participants dialogue and funding decision.
 
             </p>
         </div>

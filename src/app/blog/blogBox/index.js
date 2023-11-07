@@ -10,7 +10,7 @@ import "./styles.scss";
 export default function BlogBox({length}) {
     const router=useRouter()
     const data = [
-        [Climate, 'A climate for economic revival', 'Category xyz'],
+        [Climate, 'A climate for economic renewal', 'Category xyz'],
         [Fire, 'Act as if your house is on fire', 'Category xyz'],
         [Sustainability, 'Investing in sustainable climate solutions', 'Category xyz'],
         [Stone, 'Some Title 1', 'Category xyz'],
