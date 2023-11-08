@@ -34,9 +34,9 @@ const BlogView = () => {
     // const arr=contentText2.split("\n");
 
     const contentText3 = [
-	    "Rising emissions",
-	    "Adaption",
-	    "Sustainable management",
+	    "<br/>Rising emissions<br/><br/>",
+	    "<br/>Adaption<br/><br/>",
+	    "<br/>Sustainable management<br/><br/>",
 
     ]
 
@@ -48,9 +48,9 @@ const BlogView = () => {
     ]
 
     const contentText5 = [
-	    "Sustainability bingo",
-	    "Frontline communities",
-	    "Science and traditional knowledge",
+	    "<br/>Sustainability bingo<br/><br/>",
+	    "<br/>Frontline communities<br/><br/>",
+	    "<br/>Science and traditional knowledge<br/><br/>",
 
     ]
 
@@ -62,8 +62,8 @@ const BlogView = () => {
     ]
 
     const contentText7 = [
-	    "Still not enough",
-	    "Bottom-up strategies",
+	    "<br/>Still not enough<br/><br/>",
+	    "<br/>Bottom-up strategies<br/><br/>",
 	    '',
 
     ]
@@ -76,8 +76,8 @@ const BlogView = () => {
     ]
 
     const contentText9 = [
-	    "Lack of access",
-	    "Voices",
+	    "<br/>Lack of access<br/><br/>",
+	    "<br/>Voices<br/><br/>",
 	    '',
 
     ]
@@ -89,8 +89,8 @@ const BlogView = () => {
     ]
 
     const contentText11 = [
-	    "Dynamic and decentralised",
-	    "The Osira model",
+	    "<br/>Dynamic and decentralised<br/><br/>",
+	    "<br/>The Osira model<br/><br/>",
 	    '',
 
     ]
@@ -104,7 +104,7 @@ const BlogView = () => {
 
     const contentText13 = [
 	    '',
-	    "Donors",
+	    "<br/>Donors<br/><br/>",
 	    '',
 
     ]
@@ -118,7 +118,7 @@ const BlogView = () => {
 
     const contentText15 = [
 	    '',
-	    "Bottom-up strategies",
+	    "<br/>Bottom-up strategies<br/><br/>",
 	    '',
 
     ]
@@ -158,19 +158,19 @@ const BlogView = () => {
                     
 	    	        <p className="h5_blog_class_1 p-cat_1"> {contentText1[params.id]}</p>
                     <p className="p_blog_class_1"> {parse(contentText2[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText3[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText3[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText4[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText5[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText5[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText6[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText7[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText7[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText8[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText9[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText9[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText10[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText11[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText11[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText12[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText13[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText13[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText14[params.id])} </p>
-                    <p className="h5_blog_class_1 p-cat_1"> {contentText15[params.id]} </p>
+                    <p className="h5_blog_class_1 p-cat_1"> {parse(contentText15[params.id])} </p>
                     <p className="p_blog_class_1"> {parse(contentText16[params.id])} </p>
 
                     <p className="author-name">Author name here</p>
