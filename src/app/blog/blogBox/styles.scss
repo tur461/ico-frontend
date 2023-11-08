@@ -79,11 +79,18 @@
 .h5_blog_class_2{
     font-family: $font-family-bold;
     font-size: 24px;
+    margin-bottom: 18px;
+
 }
 .p_blog_class_2{
     font-family: $font-family-light;
     font-size: 18.21px;
     color: #C4C4C4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+     white-space: pre-wrap; 
 }
 
 .blog_date{

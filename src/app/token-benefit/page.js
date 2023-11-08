@@ -22,10 +22,16 @@ const Token = () => {
                         <div className="tokenBox">
                             <InputBox label={"Project name"} placeholder={"Osira"} style={{}} disabled={false} />
                             <InputBox label={"Token name"} placeholder={"OSR"} style={{}} disabled={false} />
-                            <InputBox label={"Live Date"} placeholder={"XX/XX/XX"} style={{}} disabled={false} />
+                            {/* <InputBox label={"Live Date"} placeholder={"XX/XX/XX"} style={{}} disabled={false} />
                             <InputBox label={"Price"} placeholder={"$$"} style={{}} disabled={false} />
                             <InputBox label={"Phase 1 supply"} placeholder={"XX,XX,XXX"} style={{}} disabled={false} />
-                            <InputBox label={"Total supply"} placeholder={"XX,XX,XXX"} style={{ borderBottom: 0 }} disabled={true} />
+                            <InputBox label={"Total supply"} placeholder={"XX,XX,XXX"} style={{ borderBottom: 0 }} disabled={true} /> */}
+                            <h1>Tokenomics under audit</h1>
+
+                            {/* <InputBox label={"Tokenomics"} placeholder={"Tokenomics"} style={{}} disabled={false} />
+                            <InputBox label={"under"} placeholder={"under"} style={{}} disabled={false} />
+                            <InputBox label={"audit"} placeholder={"audit"} style={{}} disabled={false} />
+                            <InputBox label={""} placeholder={""} style={{ borderBottom: 0 }} disabled={true} /> */}
                             <button className="btn btn-linear EnrollStyle" onClick={()=>setShowModal(true)}>Enroll</button>
                         </div>
                     </div>
