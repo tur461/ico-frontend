@@ -8,7 +8,7 @@ const nextConfig = {
             loader: 'file-loader',
             options: {
               outputPath: 'static/videos', // Output directory for the video files
-              publicPath: '/_next/static/videos', // Public path to access the videos from the browser
+              publicPath: '/next/static/videos', // Public path to access the videos from the browser
             },
           },
         ],
