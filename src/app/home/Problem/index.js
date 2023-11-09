@@ -14,7 +14,7 @@ export default function Problem() {
                 <div className="textSection">
                     <p>
                         
-                    Finance is crucial to addressing the gobal climate crisis, but getting the money to where it’s needed is beset with problems. These include:
+                    Finance is crucial to addressing the global climate crisis, but getting the money to where it’s needed is beset with problems. These include:
                     </p>
                     <ul>
                     <li>Chronic short-termism risk aversion and uncertainty.</li> 

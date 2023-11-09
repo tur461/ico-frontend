@@ -18,7 +18,7 @@ export default function Roadmap() {
             <h6 style={{ textAlign: "center" }}>
                 Combining Web3, Defi and  AI to transform climate finance
             </h6>
-            <div className="row imageBox">
+            <div className="row imageBoxRoadmap">
                 <div className="roadMapImgSec">
                     {/* <Image src={RoadMapLine} alt="RoadMapLine" className="roadMapImg"/> */}
                     <ul className="first">

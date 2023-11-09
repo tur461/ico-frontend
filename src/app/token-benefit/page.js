@@ -53,7 +53,7 @@ const Token = () => {
                     </div>
                     <div>
                         <form className='formInput'><div style={{marginBottom:'20px'}}>
-                            <input />
+                            <input type="email" required/>
                         </div>
                           <button className='btn btn-linear Custbtn'>Confirm</button>
                             {/* <Button title={"Confirm"} onClick={(e) => {

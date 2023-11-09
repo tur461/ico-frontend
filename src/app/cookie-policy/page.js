@@ -7,7 +7,7 @@ const CookiePolicy = () => {
         <div className="cookieContainer">
             <div className="cookieBox">
                 <div className="alignment">
-                <h2 className="heading">Cookie Policy</h2>
+                <h2 className="heading">Cookie policy</h2>
                 <div className="subHeading">
                     {/* <h5>A climate for economic renewal</h5> */}
                 </div>

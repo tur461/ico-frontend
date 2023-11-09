@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h4> Quick Links</h4>
+                    <h4> Quick links</h4>
                     <div className="grid-container">
                         <div className="grid-child">
                             <p>
