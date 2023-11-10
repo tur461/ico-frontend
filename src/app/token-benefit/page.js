@@ -12,7 +12,7 @@ import OsiraSeparator from '../assets/images/Line7.png';
 const Token = () => {
     const [err1, setErr1] = useState(null)
     const [err2, setErr2] = useState(null)
-    const [mailId, setMailId] = useState('')
+    const [mailId, setMailId] = useState(null)
     const [showModal, setShowModal] = useState(!1)
     const [isConfirmed, setIsConfirmed] = useState(!1)
 
@@ -21,7 +21,7 @@ const Token = () => {
     const confirmBtnCbk = e => {
         // get mail id
         console.log('mail id:', mailId)
-        if(!!!mailId) return setErr2('enter a valid email')
+        if(err1 || !mailId) return setErr2('email?')
         // send the mail id to server where mail will be sent
         // wait for the response, once received, show next details
         setIsConfirmed(!0)
@@ -30,15 +30,20 @@ const Token = () => {
     const prepEnrolling = _ => {
         setErr1(null)
         setErr2(null)
+        setMailId(null)
         setIsConfirmed(!1)
         setShowModal(!0)
     }
 
     const mailIdIpCbk = e => {
         setErr2(null)
+        setMailId(null)
         const v = e.target.value
         if(!!!v) return setErr1(null)
-        if (!isValidEmail(v)) return setErr1('email is invalid')
+        if(!isValidEmail(v)) {
+            setErr1('email is invalid')
+            return setMailId(null)
+        }
         setErr1(null)
         setMailId(v);
     }
