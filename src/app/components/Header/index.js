@@ -32,8 +32,8 @@ const Header = () => {
                         <Link className={pathname == "/" ? "active" : ""} href="/">Home</Link>
                         <Link className={pathname == "/about-us" ? "active" : ""} href="/about-us">About us</Link>
                         <Link className={pathname == "/token-benefit" ? "active" : ""} href="/token-benefit">Token benefits</Link>
-                        <Link href='https://drive.google.com/file/d/1796WQH-wYmk8XXiwejKlOuOmc9jsC01m/view?usp=sharing' target='_blank'>Whitepaper</Link>
-                        <Link href='https://drive.google.com/file/d/1UdCNtTaoVfKbn5s-tPbTS-5J2BGy9Wtj/view?usp=sharing' target='_blank'>Litepaper</Link>
+                        <Link href='https://drive.google.com/file/d/19TV3Pn7SGSzSVXG5ssRx0FG8fWHbYyLH/view?usp=sharing' target='_blank'>Whitepaper</Link>
+                        <Link href='https://drive.google.com/file/d/1QSFkwM-_WCJhts039769Qzt4nipOt_7b/view?usp=sharing' target='_blank'>Litepaper</Link>
                         <Link className={pathname == "/blog" ? "active" : ""} href='/blog'>Blog</Link>
                         {/* <Button title={"Connect wallet"}/> */}
                         <Button title={"Join community"} onClick={(e) => {

@@ -7,9 +7,11 @@ import InputBox from "../components/InputBox";
 import Image from "next/image";
 import CustomModal from "../components/Modal";
 import Description from "./description";
+import { toggle } from "@nextui-org/react";
 
 const Token = () => {
     const [showModal, setShowModal] = useState(false);
+    
     return (
         <>
         <div className="tokenContainer">
@@ -27,11 +29,6 @@ const Token = () => {
                             <InputBox label={"Phase 1 supply"} placeholder={"XX,XX,XXX"} style={{}} disabled={false} />
                             <InputBox label={"Total supply"} placeholder={"XX,XX,XXX"} style={{ borderBottom: 0 }} disabled={true} /> */}
                             <h1>Tokenomics under audit</h1>
-
-                            {/* <InputBox label={"Tokenomics"} placeholder={"Tokenomics"} style={{}} disabled={false} />
-                            <InputBox label={"under"} placeholder={"under"} style={{}} disabled={false} />
-                            <InputBox label={"audit"} placeholder={"audit"} style={{}} disabled={false} />
-                            <InputBox label={""} placeholder={""} style={{ borderBottom: 0 }} disabled={true} /> */}
                             <button className="btn btn-linear EnrollStyle" onClick={()=>setShowModal(true)}>Enroll</button>
                         </div>
                     </div>
@@ -52,15 +49,23 @@ const Token = () => {
 
                     </div>
                     <div>
-                        <form className='formInput'><div style={{marginBottom:'20px'}}>
+                        <form className='formInput'>
+                            <div style={{marginBottom:'20px'}}>
                             <input type="email" required/>
-                        </div>
-                          <button className='btn btn-linear Custbtn'>Confirm</button>
+                            </div>
+
+                    {/* <div className="Modaltitle1">
+
+                        <p style={{ marginTop: '10px',fontSize:'18px',fontWeight:600 }}>Thanks for showing us your support.</p>
+
+                    </div> */}
+                          <button className='btn btn-linear Custbtn' >Confirm</button>
+                          
                             {/* <Button title={"Confirm"} onClick={(e) => {
                                 e.preventDefault();
                                 //alert("hello")
                                 setShowModal(true)
-                            }} /> */}
+                            }} /> */} 
                         </form>
                     </div>
 
