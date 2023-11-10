@@ -32,6 +32,21 @@
 
 }
 
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.modal-backdrop-custom {
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.8;
+}
+
 .closebtn {
   position: absolute;
   top: 28px;

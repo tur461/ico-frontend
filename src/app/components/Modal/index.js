@@ -4,13 +4,13 @@ import Image from "next/image";
 import crossicon from "../../assets/images/crossicon.png"
 import LineAboveFooter from "./../../assets/images/lineabovefooter.png"
 import "./styles.scss";
-const CustomModal = ({isOpen,onClose,children}) => {
+const CustomModal = ({isOpen, onClose, children}) => {
  
     const customStyles = {
-        overlay: {
-         backgroundColor: 'rgba(0, 0, 0, 0.6)',
-          filter: 'blur(0%)'
-        },
+        // overlay: {
+        // //  backgroundColor: 'rgba(0, 0, 0, 0.6)',
+        // //   filter: 'blur(0%)'
+        // },
         content: {
             top: '50%',
             left: '50%',
@@ -24,13 +24,12 @@ const CustomModal = ({isOpen,onClose,children}) => {
         }
     }
     return (
-        <div style={{ zIndex: 1 }}>
+        <div style={{ zIndex: 10 }} className="modal-backdrop-custom">
             {/* <button onClick={() => setIsOpen(true)}>Open Modal</button> */}
             <Modal isOpen={isOpen} onRequestClose={null} style={customStyles}>
             {/* <button onClick={onClose} className="closebtn">close</button> */}
             <Image src={crossicon} className="closebtn" alt={"CrossIcon"} onClick={onClose}/>
-              {children}
-
+                {children}
             </Modal>
         </div>
     )

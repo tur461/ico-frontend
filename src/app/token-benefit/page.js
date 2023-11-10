@@ -7,9 +7,24 @@ import InputBox from "../components/InputBox";
 import Image from "next/image";
 import CustomModal from "../components/Modal";
 import Description from "./description";
+import OsiraSeparator from '../assets/images/Line7.png';
 
 const Token = () => {
-    const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(!1)
+    const [isConfirmed, setIsConfirmed] = useState(!1)
+
+    const closeModal = _ => setShowModal(!1)
+    const confirmBtnCbk = e => {
+        // get mail id
+        // send the mail id to server where mail will be sent
+        // wait for the response, once received, show next details
+        setIsConfirmed(!0)
+    }
+
+    const prepEnrolling = _ => {
+        setIsConfirmed(!1)
+        setShowModal(!0)
+    }
     return (
         <>
         <div className="tokenContainer">
@@ -32,7 +47,12 @@ const Token = () => {
                             <InputBox label={"under"} placeholder={"under"} style={{}} disabled={false} />
                             <InputBox label={"audit"} placeholder={"audit"} style={{}} disabled={false} />
                             <InputBox label={""} placeholder={""} style={{ borderBottom: 0 }} disabled={true} /> */}
-                            <button className="btn btn-linear EnrollStyle" onClick={()=>setShowModal(true)}>Enroll</button>
+                            <button 
+                                onClick={prepEnrolling}
+                                className="btn btn-linear EnrollStyle" 
+                            >
+                                Enroll
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -43,29 +63,33 @@ const Token = () => {
             </div>
         </div>
         <CustomModal isOpen={showModal} onClose={() => { setShowModal(false) }}>
-                <div className="details ">
-
-                    <div className="Modaltitle">
-
-                        <h6 className="address" style={{ textAlign: 'center',fontSize:'24px',fontWeight:600 }}>Stay Updated</h6>
-                        <p style={{ marginTop: '10px',fontSize:'18px',fontWeight:600 }}>Add your email id to stay updated for DAO platform launch</p>
-
-                    </div>
-                    <div>
-                        <form className='formInput'><div style={{marginBottom:'20px'}}>
-                            <input type="email" required/>
-                        </div>
-                          <button className='btn btn-linear Custbtn'>Confirm</button>
-                            {/* <Button title={"Confirm"} onClick={(e) => {
-                                e.preventDefault();
-                                //alert("hello")
-                                setShowModal(true)
-                            }} /> */}
-                        </form>
-                    </div>
-
-                </div>
-            </CustomModal>
+            <div id="modal--mail-confirm">
+                <h7>
+                    {isConfirmed ? 'Email submitted' : 'Join the Osira community'}
+                </h7>
+                <Image src={OsiraSeparator} className="separator_in_modal" alt="osira_separator"></Image>
+                <p>
+                    {
+                        isConfirmed ?
+                        'Thanks for showing us your support' :
+                        'Submit your email address and we\'ll keep you informed on the ICO and the platform\'s full launch'
+                    }
+                </p>
+                <input 
+                    required
+                    type="email"
+                    name="mail_id"
+                    placeholder="Email address"
+                    className={`confirm-mail_id ${isConfirmed ? 'display-none' : ''}`}
+                />
+                <button 
+                    onClick={isConfirmed ? closeModal : confirmBtnCbk}
+                    className={`mail--customBtn ${isConfirmed ? 'mail-confirmed' : 'mail-not-confirmed'}`} 
+                >
+                    {isConfirmed ? 'Okay' : 'Confirm'}
+                </button>
+            </div>
+        </CustomModal>
         </>
 
     );

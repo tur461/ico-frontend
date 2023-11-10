@@ -1,5 +1,78 @@
 @import "./../variables.scss";
 
+.display-none {
+  display: none !important;
+}
+
+#modal--mail-confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-size: cover;
+  padding: 1rem;
+  width: 34.56rem;
+  height: auto;
+}
+
+#modal--mail-confirm > p {
+  font-size: 1rem;
+}
+
+.mail--customBtn {
+  font-family: $font-family;
+  box-shadow: 0px 0px 1px 0px rgba(0,0, 0,0.4);
+  border-radius: 20px;
+  border: 1px solid #01ffd1;
+  outline: none;
+  margin-top: 1rem;
+  height: 2.4rem;
+  width: 8rem;
+  background-color: #01ffd1;
+
+  &:hover {
+    background-color: #01ffd1;
+  }
+}
+
+.separator_in_modal {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 90%;
+  height: 1px;
+}
+
+.mail-confirmed {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  
+  &:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+  }
+}
+
+.confirm-mail_id {
+  width: 14.6rem;
+  font-family: $font-family;
+  background-color: #587178;
+  border: 1px solid #587178;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #ffffff;
+  &::placeholder {
+    font-family: $font-family;
+    color: #bdbdbd;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
 .tokenContainer {
   padding: 55px 60px 70px 60px;
   margin-bottom: 30px;
