@@ -10,15 +10,16 @@
       width: 697px;
   }
   h4{
-    font-weight: 400;
     font-size: 49.41px!important;
     line-height: 60.18px;
+    font-family: $font-family-bold;
   }
     
   }
 .content {
     color: $header-active-color ;
-    font-weight: 600;
+    font-family: $font-family-bold;
+
 
   }
   

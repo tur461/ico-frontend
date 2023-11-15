@@ -42,11 +42,6 @@ const Token = () => {
                             <InputBox label={"Phase 1 supply"} placeholder={"XX,XX,XXX"} style={{}} disabled={false} />
                             <InputBox label={"Total supply"} placeholder={"XX,XX,XXX"} style={{ borderBottom: 0 }} disabled={true} /> */}
                             <h1>Tokenomics under audit</h1>
-
-                            {/* <InputBox label={"Tokenomics"} placeholder={"Tokenomics"} style={{}} disabled={false} />
-                            <InputBox label={"under"} placeholder={"under"} style={{}} disabled={false} />
-                            <InputBox label={"audit"} placeholder={"audit"} style={{}} disabled={false} />
-                            <InputBox label={""} placeholder={""} style={{ borderBottom: 0 }} disabled={true} /> */}
                             <button 
                                 onClick={prepEnrolling}
                                 className="btn btn-linear EnrollStyle" 

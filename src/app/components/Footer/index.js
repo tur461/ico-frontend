@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="content">
                 <div className="services">
                     <Image src={LogoWithLabel} alt="LogoWithLabel" style={{ height: 150, width: 150 }} className="img-fluid" />
-                    <p style={{marginTop:"22px",wordBreak:"break-all",width: "50%"}}>71-75 Shelton Street London WC2H 9JQ</p>
+                    <p style={{marginTop:"22px",wordBreak:"break-all",width: "50%",fontSize:"20px"}}>71-75 Shelton Street London WC2H 9JQ</p>
                     <div style={{display:"flex",marginTop: "30%"}}>
                     <Image src={PolygonIcon} alt="Polygon Icon" className="polygon"/>
                     <h4 style={{marginTop:"2%",marginLeft: "10px"}}>Polygon</h4>

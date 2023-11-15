@@ -10,7 +10,7 @@ export default function Blog() {
         <div className="blogSection displayBlock">
             <div>
             <h5 className="section-heading">Osira Blog </h5>
-            <p style={{textAlign:'center'}}>News and Persective from global climate finance</p>
+            <p style={{textAlign:'center'}}>News and perspectives from the global climate finance market.</p>
             </div>
             <div className="blogContainer">
                 <BlogBox length={3}/>
