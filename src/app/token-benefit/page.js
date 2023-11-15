@@ -10,20 +10,42 @@ import Description from "./description";
 import OsiraSeparator from '../assets/images/Line7.png';
 
 const Token = () => {
+    const [err1, setErr1] = useState(null)
+    const [err2, setErr2] = useState(null)
+    const [mailId, setMailId] = useState(null)
     const [showModal, setShowModal] = useState(!1)
     const [isConfirmed, setIsConfirmed] = useState(!1)
 
     const closeModal = _ => setShowModal(!1)
+    const isValidEmail = id => /\S+@\S+\.\S+/.test(id)
     const confirmBtnCbk = e => {
         // get mail id
+        console.log('mail id:', mailId)
+        if(err1 || !mailId) return setErr2('email?')
         // send the mail id to server where mail will be sent
         // wait for the response, once received, show next details
         setIsConfirmed(!0)
     }
 
     const prepEnrolling = _ => {
+        setErr1(null)
+        setErr2(null)
+        setMailId(null)
         setIsConfirmed(!1)
         setShowModal(!0)
+    }
+
+    const mailIdIpCbk = e => {
+        setErr2(null)
+        setMailId(null)
+        const v = e.target.value
+        if(!!!v) return setErr1(null)
+        if(!isValidEmail(v)) {
+            setErr1('email is invalid')
+            return setMailId(null)
+        }
+        setErr1(null)
+        setMailId(v);
     }
     return (
         <>
@@ -74,15 +96,18 @@ const Token = () => {
                     required
                     type="email"
                     name="mail_id"
+                    onChange={mailIdIpCbk}
                     placeholder="Email address"
                     className={`confirm-mail_id ${isConfirmed ? 'display-none' : ''}`}
                 />
+                {err1 && <h6 style={{color: 'red'}}>{err1}</h6>}
                 <button 
                     onClick={isConfirmed ? closeModal : confirmBtnCbk}
                     className={`mail--customBtn ${isConfirmed ? 'mail-confirmed' : 'mail-not-confirmed'}`} 
                 >
                     {isConfirmed ? 'Okay' : 'Confirm'}
                 </button>
+                {err2 && <h6 style={{color: 'red'}}>{err2}</h6>}
             </div>
         </CustomModal>
         </>
